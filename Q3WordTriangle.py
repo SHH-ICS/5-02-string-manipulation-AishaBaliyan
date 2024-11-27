@@ -5,3 +5,9 @@
 # PYTH
 # PYTHO
 # PYTHON
+word = input("Enter a word: ")
+length = len(word)
+for row in range(length):
+    for col in range(row+1):
+        print(word[col], end="")
+    print()
